@@ -1,0 +1,22 @@
+body {
+  
+}
+
+.flex-container{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.topborder{
+  border-top: ridge;
+}
+
+#right-container{
+  border: ridge;
+  border-color: darkblue;
+  background-color: lightgrey;
+}
+
+#header{
+  background-color: lightseagreen;
+}
