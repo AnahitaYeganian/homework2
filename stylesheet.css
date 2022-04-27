@@ -1,5 +1,9 @@
 body {
-  
+  font-family: arial;
+}
+
+a {
+  color: darkblue;
 }
 
 .flex-container{
@@ -7,11 +11,21 @@ body {
   flex-direction: column;
 }
 
+.flex-item {
+  margin: 0px 20px;
+}
+
 .topborder{
   border-top: ridge;
+  border-top-color: darkblue;
+}
+
+#left-container{
+  width: 30%;
 }
 
 #right-container{
+  width: 65%;
   border: ridge;
   border-color: darkblue;
   background-color: lightgrey;
@@ -19,4 +33,5 @@ body {
 
 #header{
   background-color: lightseagreen;
+  color: white;
 }
